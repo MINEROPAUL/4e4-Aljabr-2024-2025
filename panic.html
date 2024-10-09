@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouton PANIC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Résultat du Bouton PANIC</h1>
+        <div id="panic" class="profile"></div>
+        <button onclick="location.href='index.html'">Retour à l'accueil</button>
+    </div>
+
+    <script>
+        // Bouton PANIC pour les devoirs
+        const panic = document.getElementById('panic');
+        panic.innerHTML = "<h2>Action :</h2>";
+        panic.innerHTML += "<p>Oups... tu es toujours en retard sur tes devoirs, désolé !</p>";
+    </script>
+</body>
+</html>
